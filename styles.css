@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background:darkred;
+    background-color: blue;
+}
+
+@media (max-width: 600px) {
+   .grp4 {
+  color: green;
+  }
+}
+nav {
+    margin-bottom: 20px;
+}
+nav .nav-item {
+    font-weight: bold;
+}
+.container {
+    text-align: center;
+    color:blue
+}
+#bottom1 {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+.grp4{
+    text-align: left;
+    color:blue
+}
+h1{
+    color:blue;
+    text-align:center;
+    width: 100%;
+}
+
+h4{
+  color:blue;
+  text-align:left;
+}
+.grp5{
+    color:goldenrod;
+    text-align:center;
+}
+  .projects-name {
+    font-weight: bold;
+    color: red;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+table{
+    border: 2px solid black; margin: 30px;
+    width: 50%; text-align: center;
+  }
+th , td{
+    border: 2px solid black;
+    padding: 5px;
+}
+th{
+    background-color:lightgray;
+    padding: 5px;
+}
+.gp1 {
+    width: 10%; 
+    height: 10vh;
+    padding: 0, 10%;
+}
+.gp2 {
+    background:darkred;
+    width: 50%;
+    margin: 50px;
+}
+  
+.button-submit  {
+    @extend .container
+    background-color: green;
+    color: white;
+  }
+
